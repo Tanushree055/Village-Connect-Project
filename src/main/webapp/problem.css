@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cormorant Garamond Light;
+}
+
+body {
+    background-color: rgba(253, 255, 240, 1);
+}
+
+#main-nav {
+    background-color: rgba(237, 240, 220, 1);
+    color: rgba(63, 66, 49, 1);
+    padding: 13px 0px;
+    position: absolute;
+    top: 87px;
+    width: calc(100% - 160px);
+    margin: 0 80px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#main-nav ul li a {
+    color: rgba(63, 66, 49, 1);
+    font-size: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+    color: rgba(163, 98, 0, 1);
+}
+
+.text {
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(63, 66, 49, 1);
+}
+
+.text span:first-child {
+    font-size: 40px;
+}
+
+.form-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 45%; /* Adjust width as necessary */
+}
+
+.style-form {
+    width: 100%; /* Ensure the form takes the full container width */
+    color: rgba(63, 66, 49, 1);
+}
+
+.inline-form {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for better responsiveness */
+    font-size: 15px;
+    color: rgba(63, 66, 49, 1);
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+
+.form-left {
+    flex: 0 0 34%; /* Fixed width for the left box */
+    margin-right: 3%; /* Add space between left and right */
+}
+
+.form-right {
+    flex: 0 0 58%; /* Fixed width for the right box */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    position: relative; /* Ensure relative positioning for submit button */
+    margin-right: 3%;
+}
+
+/* Position the submit button at the end of the right form */
+.form-right input[type="submit"] {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px; /* Space between button and form */
+}
+
+label {
+    display: block;
+    margin-bottom: 2px; /* Space between label and input */
+    margin-top: 8px;
+}
+
+.inline-form input[type="text"],
+.inline-form input[type="email"],
+.inline-form textarea {
+    border: 1px solid rgba(63, 66, 49, 1);
+    background: none;
+    margin-top: 8px;
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    color: rgba(63, 66, 49, 1);
+}
+
+.inline-form input[type="text"],
+.inline-form input[type="email"] {
+    padding: 10px 7px;
+}
+
+.inline-form textarea {
+    padding: 10px 10px;
+    height: 242px; /* Set a specific height for the textarea */
+}
+
+/* Ensure the container takes full width */
+.submit-container {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px; /* Add margin-top for spacing */
+}
+
+/* Style for submit button */
+.submit-container input[type="submit"] {
+    padding: 14px 20px;
+    background-color: rgba(163, 98, 0, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+    width: 100%;
+    text-align: center;
+}
+
+.inline-form input[type="submit"]:hover {
+    background-color: rgba(253, 255, 240, 1);
+    border: 1px solid rgba(163, 98, 0, 1);
+    color: rgba(163, 98, 0, 1);
+}
+
+.form-left input[type="submit"] {
+    width: 100%; /* Adjust width to span both forms */
+    margin-top: 20px; /* Add margin-top for spacing */
+}
+.form-right input[type="submit"] {
+    width: 100%; /* Adjust width to span both forms */
+    margin-top: 20px; /* Add margin-top for spacing */
+}
+
+/* Reset default list styles */
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.text2{
+	position: absolute;
+    top: 110%;
+    margin-left:22%;
+    transform: translate(-50%, -50%);
+    color:rgba(63, 66, 49, 1);
+}
+.text2 span:first-child{
+	font-size: 54px;
+}
+.text2 span:nth-child(2){
+    font-size: 40px;
+}
+
+/* Apply custom list styles */
+.my-list {
+    position: absolute;
+    display: flex;
+    justify-content: flex-direction;
+    padding: 0;
+    color: rgb(141, 148, 112);
+    height: 700px;
+    position: absolute;
+	top: 108%;
+	margin-left: 52%;
+	font-size: 18px;
+}
+
+.my-list li {
+    margin-bottom: 60px; /* Space between items */
+    width: 100%; /* Adjust width as needed */
+    background-color: transparent;
+   
+}
+.material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+      font-family: 'Material Icons';
+      font-size: 22px;
+}
+
+/* New CSS for pagination */
+.pagination {
+    position: absolute;
+	top: 178%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-direction;
+    margin-left: 52%;
+}
+
+.pagination-link {
+  display: inline-block;
+  padding: 10px 20px; /* Adjust padding for desired size */
+  border-radius: 25px; /* Slight rounding for a modern look */
+  text-align: center; /* Center the text */
+  text-decoration: none;
+  color: rgba(63, 66, 49, 1);
+  background-color: rgba(237, 240, 220, 1);
+  margin: 5px; /* Space between buttons */
+}
+
+
+.pagination-link:hover {
+    background-color:  rgba(163, 98, 0, 1);
+    color:  rgba(253, 255, 240, 1);
+}
+
+.pagination-link.active {
+    background-color: rgba(163, 98, 0, 1);;
+    color:  rgba(253, 255, 240, 1);
+}
+

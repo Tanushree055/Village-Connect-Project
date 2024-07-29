@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SignUp</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1
+            style="font-size: 16px; color: rgba(63,66,49,1); text-align: center; padding-top: 50px; font-weight: lighter;">
+            Village Connect
+        </h1>
+        <div class="text-box">
+            <span
+                style="font-family:Cormorant Garamond Semi Bold; font-weight: bold; font-size: 57px;">
+                VILLAGE<br>CONNECT<br>
+            </span>
+            <br>
+            <span
+                style="font-size: 49px;">Bridging<br>Communities,<br>Transforming<br>Lives</span>
+        </div>
+        <img
+            src="https://images.pexels.com/photos/2802403/pexels-photo-2802403.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="A beautiful scenery" class="image1">
+        <img
+            src="https://images.pexels.com/photos/2095948/pexels-photo-2095948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="A beautiful scenery" class="image2">
+        <div class="form-container">
+            <div class="style-form">
+                <form class="inline-form" action="register" method="post">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="firstname"
+                        required><br>
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname"
+                        required><br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" name="phone" required><br>
+                    <label for="dropdown">Village</label>
+                    <select id="dropdown" name="dropdown" required>
+                        <option value="Ajangaon">Ajangaon</option>
+                        <option value="Ajangaon">Ajangaon</option>
+                        <option value="Ambada Alias Maini Dhana Ryt.">Ambada
+                            Alias Maini Dhana Ryt.</option>
+                        <option value="Ambada Khurd">Ambada Khurd</option>
+                        <option value="Ambada Mal.">Ambada Mal.</option>
+                        <option value="Ambakhapa">Ambakhapa</option>
+                        <option value="Balapur F.V.">Balapur F.V.</option>
+                        <option value="Bamla">Bamla</option>
+                        <option value="Bandhan">Bandhan</option>
+                        <option value="Bangaon">Bangaon</option>
+                        <option value="Barighat">Barighat</option>
+                        <option value="Belgaon Dawami">Belgaon Dawami</option>
+                        <option value="Bhaisa Dongri Ryt.">Bhaisa Dongri
+                            Ryt.</option>
+                        <option value="Bhajipani">Bhajipani</option>
+                        <option value="Bhandargondi">Bhandargondi</option>
+                        <option value="Bhatewadi">Bhatewadi</option>
+                        <option value="Bhimkhedi">Bhimkhedi</option>
+                        <option value="Bhuli">Bhuli</option>
+                        <option value="Bhuyari">Bhuyari</option>
+                        <option value="Bichhawasani">Bichhawasani</option>
+                        <option value="Bichhuwa Kalan">Bichhuwa Kalan</option>
+                        <option value="Biroli">Biroli</option>
+                        <option value="Birolipar">Birolipar</option>
+                        <option value="Boghiya">Boghiya</option>
+                        <option value="Borgaon">Borgaon</option>
+                        <option value="Borkhedi">Borkhedi</option>
+                        <option value="Borpani F.V.">Borpani F.V.</option>
+                        <option value="Buchankhapa">Buchankhapa</option>
+                        <option value="Changoba">Changoba</option>
+                        <option value="Chatwa">Chatwa</option>
+                        <option value="Chhabdi">Chhabdi</option>
+                        <option value="Chhindboh">Chhindboh</option>
+                        <option value="Chichghat">Chichghat</option>
+                        <option value="Chichkheda">Chichkheda</option>
+                        <option value="Chicholi">Chicholi</option>
+                        <option value="Chikhali Mukasa">Chikhali Mukasa</option>
+                        <option value="Chikni">Chikni</option>
+                        <option value="Chikri Ryt.">Chikri Ryt.</option>
+                        <option value="Chiman Khapa">Chiman Khapa</option>
+                        <option value="Dadhimeta">Dadhimeta</option>
+                        <option value="Deo Khapa">Deo Khapa</option>
+                        <option value="Deonala Mal.">Deonala Mal.</option>
+                        <option value="Deonala Ryt.">Deonala Ryt.</option>
+                        <option value="Dhanora">Dhanora</option>
+                        <option value="Dhawadi Khapa">Dhawadi Khapa</option>
+                        <option value="Dholan Khapa B.S.">Dholan Khapa
+                            B.S.</option>
+                        <option value="Dholan Khapa Ryt.">Dholan Khapa
+                            Ryt.</option>
+                        <option value="Dholankhapa">Dholankhapa</option>
+                        <option value="Dighori">Dighori</option>
+                        <option value="Duddewani">Duddewani</option>
+                        <option value="Dudha">Dudha</option>
+                        <option value="Gadmau">Gadmau</option>
+                        <option value="Gaykhuri">Gaykhuri</option>
+                        <option value="Ghogara Ryt.">Ghogara Ryt.</option>
+                        <option value="Ghogari">Ghogari</option>
+                        <option value="Ghogri">Ghogri</option>
+                        <option value="Ghudankhapa">Ghudankhapa</option>
+                        <option value="Godarikhapa">Godarikhapa</option>
+                        <option value="Gorlikhapa">Gorlikhapa</option>
+                        <option value="Govindpur">Govindpur</option>
+                        <option value="Gujarkhedi">Gujarkhedi</option>
+                        <option value="Hardoli">Hardoli</option>
+                        <option value="Heti">Heti</option>
+                        <option value="Hiwara Prithwiram">Hiwara
+                            Prithwiram</option>
+                        <option value="Hiwarasenadwar">Hiwarasenadwar</option>
+                        <option value="Itawa">Itawa</option>
+                        <option value="Jamghat">Jamghat</option>
+                        <option value="Jamlapani">Jamlapani</option>
+                        <option value="Jatlapur">Jatlapur</option>
+                        <option value="Joga">Joga</option>
+                        <option value="Junapani Dawami No.1">Junapani Dawami
+                            No.1</option>
+                        <option value="Junapani Dawami No.2">Junapani Dawami
+                            No.2</option>
+                        <option value="Junapani Mal.">Junapani Mal.</option>
+                        <option value="Junewani">Junewani</option>
+                        <option value="Kalamgaon">Kalamgaon</option>
+                        <option value="Kalapatha">Kalapatha</option>
+                        <option value="Kamthi Kalan">Kamthi Kalan</option>
+                        <option value="Kamthi Khurd">Kamthi Khurd</option>
+                        <option value="Karaghat Kamthi">Karaghat Kamthi</option>
+                        <option value="Karvhar">Karvhar</option>
+                        <option value="Kaudiya">Kaudiya</option>
+                        <option value="Khadki">Khadki</option>
+                        <option value="Khairipaika">Khairipaika</option>
+                        <option value="Khapa Razadi">Khapa Razadi</option>
+                        <option value="Khapar Kheda">Khapar Kheda</option>
+                        <option value="Khedi Dhajjewar">Khedi Dhajjewar</option>
+                        <option value="Khedi Pandewar">Khedi Pandewar</option>
+                        <option value="Khedidhan Bhoyarwar">Khedidhan
+                            Bhoyarwar</option>
+                        <option value="Khedikala">Khedikala</option>
+                        <option value="Kodhar Roadikheda">Kodhar
+                            Roadikheda</option>
+                        <option value="Kolikhapa">Kolikhapa</option>
+                        <option value="Kondhar Mal.">Kondhar Mal.</option>
+                        <option value="Kukadikhapa">Kukadikhapa</option>
+                        <option value="Kundali">Kundali</option>
+                        <option value="Langha">Langha</option>
+                        <option value="Lavhana">Lavhana</option>
+                        <option value="Lendaghondi">Lendaghondi</option>
+                        <option value="Lendhori">Lendhori</option>
+                        <option value="Linga Eletir">Linga Eletir</option>
+                        <option value="Lonadei Mal">Lonadei Mal</option>
+                        <option value="Lonadei Ryt.">Lonadei Ryt.</option>
+                        <option value="Magajgaon">Magajgaon</option>
+                        <option value="Malapur">Malapur</option>
+                        <option value="Malegaon">Malegaon</option>
+                        <option value="Mandvi">Mandvi</option>
+                        <option value="Mangurli">Mangurli</option>
+                        <option value="Markawada">Markawada</option>
+                        <option value="Marood">Marood</option>
+                        <option value="Met">Met</option>
+                        <option value="Mohgaon">Mohgaon</option>
+                        <option value="Mohi">Mohi</option>
+                        <option value="Mohkhedi">Mohkhedi</option>
+                        <option value="Mordongri">Mordongri</option>
+                        <option value="More Ghat">More Ghat</option>
+                        <option value="Morghondi">Morghondi</option>
+                        <option value="Mundi Dhana Ryt.">Mundi Dhana Ryt.</option>
+                        <option value="Najarpur Ryt.">Najarpur Ryt.</option>
+                        <option value="Nandanwadi Mal.">Nandanwadi Mal.</option>
+                        <option value="Nandanwadi Ryt.">Nandanwadi Ryt.</option>
+                        <option value="Nandpur">Nandpur</option>
+                        <option value="Narayan Ghat">Narayan Ghat</option>
+                        <option value="Narsala">Narsala</option>
+                        <option value="Nilkanth">Nilkanth</option>
+                        <option value="Pailepar">Pailepar</option>
+                        <option value="Palaspani">Palaspani</option>
+                        <option value="Pandoni">Pandoni</option>
+                        <option value="Pandurna Kasba">Pandurna Kasba</option>
+                        <option value="Pardi">Pardi</option>
+                        <option value="Parsodi">Parsodi</option>
+                        <option value="Pathai">Pathai</option>
+                        <option value="Pathara">Pathara</option>
+                        <option value="Paunar Mal.">Paunar Mal.</option>
+                        <option value="Piparpani">Piparpani</option>
+                        <option value="Pither Mal.">Pither Mal.</option>
+                        <option value="Pither Ryt.">Pither Ryt.</option>
+                        <option value="Raibasa">Raibasa</option>
+                        <option value="Rajana">Rajana</option>
+                        <option value="Rajdongri">Rajdongri</option>
+                        <option value="Rajora Kalan">Rajora Kalan</option>
+                        <option value="Rajora Khurd">Rajora Khurd</option>
+                        <option value="Ringankhapa">Ringankhapa</option>
+                        <option value="Salai">Salai</option>
+                        <option value="Sawajpani">Sawajpani</option>
+                        <option value="Sawajpani Mal.">Sawajpani Mal.</option>
+                        <option value="Sawajpani Ryt.">Sawajpani Ryt.</option>
+                        <option value="Sendurjana">Sendurjana</option>
+                        <option value="Seoni">Seoni</option>
+                        <option value="Sillewani">Sillewani</option>
+                        <option value="Sirata">Sirata</option>
+                        <option value="Sitapar">Sitapar</option>
+                        <option value="Sonegaon">Sonegaon</option>
+                        <option value="Sonpathar">Sonpathar</option>
+                        <option value="Teegaon">Teegaon</option>
+                        <option value="Temni">Temni</option>
+                        <option value="Umarikalan">Umarikalan</option>
+                        <option value="Uttamdera Mal.">Uttamdera Mal.</option>
+                        <option value="Uttamdera Ryt.">Uttamdera Ryt.</option>
+                        <option value="Vada">Vada</option>
+                        <option value="Vagholi">Vagholi</option>
+                        <option value="Wadda Dawami">Wadda Dawami</option>
+                        <option value="Wadda Mal.">Wadda Mal.</option>
+                        <option value="Wadegaon">Wadegaon</option>
+                        <option value="Wakora">Wakora</option>
+                        <option value="Warjali">Warjali</option>
+
+                    </select><br>
+                    <label for="confirm-password">Password</label>
+                    <input type="password" id="confirm-password"
+                        name="confirm-password" required>
+                    <input type="submit" value="Submit">
+                </form>
+                <br>
+                <div class="login-box">
+                <span style="font-size: 17px;font-weight: bold;">Already have an account?</span>
+                <span style="font-size: 17px;font-weight: bold;"><a href="login.html" class="click-login">Log in</a></span>
+                </div>
+                
+            </div>
+        </div>
+
+         <div class="green">
+            <span class="text">Village Connect</span>
+            <h1 class="address">+91 9131630631</h1><br>
+                <h1 class="address">
+                    <a href="mailto:tanushreebaingne20@gmail.com">tanushreebaingne20@gmail.com</a>
+                </h1><br><br>
+                <h1 class="address">Ayodhya Nagar,  Bhopal,  Madhya Pradesh</h1>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+ * {
+            padding: 0;
+            margin: 0;
+            font-family: Cormorant Garamond Light;
+        }
+
+        body {
+            background-color: rgba(253, 255, 240, 1);
+        }
+        .star {
+            font-size: 2rem;
+            color: gray;
+            cursor: pointer;
+            position: relative;
+        }
+        .star.selected {
+            color: gold;
+        }
+        .average-star {
+            font-size: 2rem;
+            color: gray;
+            position: relative;
+            display: inline-block;
+        }
+        .average-star.active {
+            color: gold;
+        }
+        .average-star::after {
+            content: '\2605'; /* Full star */
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: gold;
+            width: 0;
+            overflow: hidden;
+            white-space: nowrap;
+            display: inline-block;
+        }
+        .average-star.partial::after {
+            content: '\2605'; /* Full star */
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: gold;
+            width: var(--star-width);
+            overflow: hidden;
+            white-space: nowrap;
+            display: inline-block;
+        }

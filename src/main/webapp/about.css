@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cormorant Garamond Light;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgba(253, 255, 240, 1);
+}
+
+#main-nav {
+    background-color: rgba(237, 240, 220, 1);
+    color: rgba(63, 66, 49, 1);
+    padding: 8px 0px;
+    position: absolute;
+    top: 87px;
+    width: calc(100% - 160px);
+    margin: 0 80px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#main-nav ul li a {
+	position: relative;
+    top: 5px;
+    color: rgba(63, 66, 49, 1);
+    font-size: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+    color: rgba(163, 98, 0, 1);
+}
+
+.image1 {
+	width: 258;
+	height: 450;
+    position: absolute;
+    top:38%;
+    left: 75%;
+}
+.text1 {
+    font-size: 52px;
+    color: rgba(63,66,49,1);
+    left: 18%;
+}
+.text2 {
+    font-size: 28px;
+    color: rgba(63,66,49,1);
+    left: 18%;
+}
+.text3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    color: rgba(63,66,49,1);
+    left: 18%;
+    width: 50%;
+}
+.box {
+    position: absolute;
+    top: 110%;
+    background-color: rgba(240, 243, 224, 1);
+    margin-left: 45px;
+    margin-right: 45px;
+    width: 95%;
+    height: 105%;
+}
+
+.inner-box {
+    position: relative; /* Ensure positioning within the box */
+    left: 16%; /* Align the content inside the box */
+   top: 9%;
+}
+.inner-box .text2 {
+    margin-top: 20px; /* Adjust this value to move text2 elements down */
+}
+
+.inner-box .text3 {
+    margin-top: 10px; /* Adjust this value to move text3 elements down */
+}
+ul {
+    list-style-type: square; /* You can change disc to circle, square, etc. */
+    margin-left: 30px;
+}
+li {
+   margin-bottom: 10px; 
+}
+.box2 {
+    position: absolute;
+    top: 221%;
+    background-color: rgba(240, 243, 224, 1);
+    margin-left: 45px;
+    margin-right: 45px;
+    width: 95%;
+    height: 50%;
+}
+.green {
+    position: absolute;
+    background-color: rgba(63, 66, 49, 1);
+    top: 277%;
+    height: 330px;
+    width: 100%;
+}
+.text {
+    color: rgba(254,188,87,1);
+    left: 7%;
+    position: relative;
+    top: 28%;
+    font-size: 28px;
+}
+.address {
+    position: relative;
+    top: 28%;
+    font-size: 14px;
+    color: rgba(254,188,87,1);
+    line-height: 0.5;
+    font-weight: lighter;
+    left: calc(50% + 10%);
+}
+.address a{
+    text-decoration: none;
+    color: rgba(254,188,87,1);
+}

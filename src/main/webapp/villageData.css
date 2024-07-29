@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Cormorant Garamond Light;
+}
+
+body {
+	background-color: rgba(253, 255, 240, 1);
+}
+.main {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: rgba(63, 66, 49, 1);
+}
+
+.box {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	position: absolute;
+	top: 200px;
+	margin-left: 7%;
+	width: 50%;
+}
+ ul {
+        list-style-type: square; /* You can change disc to circle, square, etc. */
+        margin-left: 20px; /* Adjust the left margin for indentation */
+    }
+li {
+        font-family: Cormorant Garamond Light; /* Example font style */
+        color: rgba(64, 66, 51, 1); /* Example color */
+        font-size: 20px; /* Example font size */
+        margin-bottom: 20px; /* Space between list items */
+    }
+    .green {
+    position: absolute;
+    background-color: rgba(63, 66, 49, 1);
+    top: 235%;
+    height: 330px;
+    width: 100%;
+}
+.text {
+    color: rgba(254,188,87,1);
+    left: 7%;
+    position: relative;
+    top: 28%;
+    font-size: 28px;
+}

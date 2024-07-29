@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Cormorant Garamond Light;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: rgba(253, 255, 240, 1);
+}
+
+#main-nav {
+    background-color: rgba(237, 240, 220, 1);
+    color: rgba(63, 66, 49, 1);
+    padding: 5px 0px;
+    position: absolute;
+    top: 87px;
+    width: calc(100% - 160px);
+    margin: 0 80px;
+    z-index: 2;
+    box-sizing: border-box;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#main-nav ul li a {
+    color: rgba(63, 66, 49, 1);
+    font-size: 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#main-nav ul li a:hover {
+    color: rgba(163, 98, 0, 1);
+}
+
+.box {
+    background-color: rgba(239,240,243,1);
+    height: 152%; /* Adjust the height here */
+    position: absolute;
+    top: 110px;
+    width: 100%;
+}
+.inner-box1 {
+    background-color: rgba(253, 255, 240, 1);
+    width: 95%;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: absolute;
+    top: 6%;
+    height: 45%;
+}
+.text1 {
+    left: 17%;
+    position: absolute;
+    top: 14%;
+    width: 60%;
+    font-size: 50px;
+    color:  rgba(63,66,49,1);
+}
+.text2 {
+    left: 17%;
+    position: relative;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-size: 17px;
+    color:  rgba(63,66,49,1);
+}
+.inner-box2 {
+    background-color: rgba(240,243,224,1);
+    width: 95%;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+    top: 37%;
+    height: 60%;
+}
+.text3 {
+    left: 17%;
+    position: absolute;
+    top: 15%;
+    display: flex;
+    flex-direction: column;
+    font-size: 34px;
+    color:  rgba(63,66,49,1);
+}
+.column-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute columns evenly */
+    position: absolute;
+    top: 30%;
+    left: 17%;
+}
+
+.column {
+    flex: 1; 
+    padding-right: 140px;
+    border: none;
+    color:  rgba(63,66,49,1);
+    font-size: 17px;
+}
+a {
+    color: rgba(63,66,49,1);
+    text-decoration: none; /* Remove underline */
+    display: flex;
+    align-items: center;
+}
+.icon {
+    width: 24px; /* Adjust size as needed */
+    height: 24px; /* Adjust size as needed */
+    margin-right: 5px;
+    transition: filter 0.3s;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 46%;
+    left: 16%;
+    max-width: 750px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+    background-color:  rgba(240,243,224,1);
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: calc(33.333% - 10px); /* Ensure three fields fit in one row */
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: rgba(63,66,49,1);
+}
+
+.form-group input, .form-group textarea {
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgba(63,66,49,1);
+    background-color: rgba(253, 255, 240, 1);
+    border: 1px solid rgba(63,66,49,1);
+}
+
+.form-group textarea {
+    height: 80px;
+    resize:none;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end; /* Align button to the right */
+}
+
+.form-actions button {
+    padding: 10px 105px;
+    font-size: 16px;
+    background-color: rgba(163,98,0,1);
+    color: rgba(253, 255, 240, 1);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.form-actions button:hover {
+    background-color: rgba(253, 255, 240, 1);
+    border: 1px solid rgba(163,98,0,1);
+    color: rgba(163,98,0,1);
+}
+.green {
+    position: absolute;
+    background-color: rgba(63, 66, 49, 1);
+    top: 168.5%;
+    height: 330px;
+    width: 100%;
+}
+.text {
+    color: rgba(254,188,87,1);
+    left: 7%;
+    position: relative;
+    top: 28%;
+    font-size: 28px;
+}
+.address {
+    position: relative;
+    top: 28%;
+    font-size: 14px;
+    color: rgba(254,188,87,1);
+    line-height: 0.5;
+    font-weight: lighter;
+    left: calc(50% + 10%);
+}
+.address a{
+    text-decoration: none;
+    color: rgba(254,188,87,1);
+}
